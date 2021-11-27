@@ -46,13 +46,36 @@
 .servicesHeader {
   margin-left: 90px;
 }
-/* .customCard:hover {
-  transform: scale(1.3);
-  background-image: url('../src/assets/Group_158.png');
+
+.backgroundColor {
+  background-color: #180f39;
   color: white;
+}
+
+.address {
+  padding-top: 4em;
+}
+
+.navbarStyleFirst {
+  padding-left: 8em;
+}
+
+.navbarStyle {
+  padding-left: 5em;
+}
+
+.active {
+  color: green;
+  font-weight: bold;
+}
+
+/* .active, .btn:hover {
+  color: green;
+  font-weight: bold;
 } */
 
 @media (max-width: 428px) {
+
   .hideEmeTechImg {
     display: none;
   }
@@ -80,10 +103,29 @@
   .servicesHeader {
     margin-left: 0px;
   }
+
+  .logoFooter {
+    margin-left: 7.5em;
+  }
+
+  .address {
+    text-align: center;
+  }
+
+  .navbarStyleFirst {
+    padding-left: unset;
+  }
+
+  .navbarStyle {
+    padding-left: unset;
+  }
+
 }
 
 @media (min-width: 1280px) and (max-width: 1440px) {
+
   .hideLaptopLady {
     width: 130%;
   }
+
 }
